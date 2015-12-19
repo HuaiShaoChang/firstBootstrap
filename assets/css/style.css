@@ -1,0 +1,19 @@
+h1 {
+	color: #f00;
+	border: 1px solid #0ff;
+	/*display: inline;*/
+	/*display: block;*/
+	display: inline-block;
+	width: 50px;
+}
+
+p {
+	display: inline-block;
+	margin-right: 30px;
+	border: 1px solid #0f0;
+}
+
+.container {
+	border: 1px solid #f00;
+	height: 300px;
+}
