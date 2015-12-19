@@ -1,19 +1,48 @@
+.container {
+	/*border: 1px solid #f00;*/
+	height: 300px;
+	background: url("https://c2.staticflickr.com/4/3907/14693860946_4bfb1d8eb2_b.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	margin-bottom: 50px;
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-item: center;
+}
+
 h1 {
-	color: #f00;
-	border: 1px solid #0ff;
+	/*font-size: 2em;*/
+	/*color: #f00;*/
+	/*border: 1px solid #0ff;*/
 	/*display: inline;*/
 	/*display: block;*/
-	display: inline-block;
-	width: 50px;
+	/*display: inline-block;*/
+	font-size: 28px;
+	font-weight: 600;
+	color: #fff;
+}
+
+h3{
+	color: #fff;
+	margin-top: 15px;
+}
+
+article {
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 p {
-	display: inline-block;
-	margin-right: 30px;
-	border: 1px solid #0f0;
-}
-
-.container {
-	border: 1px solid #f00;
-	height: 300px;
+	/*display: inline-block;*/
+	/*margin-right: 30px;*/
+	/*border: 1px solid #0f0;*/
+	/*margin: 1em;*/
+	padding-bottom: 20px;
+	/*color: #ccc;*/
+	/*margin: 15px;*/
+	line-height: 1.5em
 }
